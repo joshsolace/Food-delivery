@@ -10,7 +10,7 @@ app.use(express.json());
 const port = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
-  res.send("WELCOME TO SOLACE FOOD DELIVERY APP");
+  res.send("WELCOME TO SOLACE FOOD DELIVERY APP.");
 });
 
 // app.use('/api/v1', userRoutes);
